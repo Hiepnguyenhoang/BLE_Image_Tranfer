@@ -10,7 +10,7 @@ A Pi running this interface can connect simultaneously to multiple LE devices.
 
 ```sh
 gcc btferret.c btlib.c -o btferret
-
+\`\`\`
 # Run Code
 
 This code must be run with root permissions from the root account or via sudo as follows:
