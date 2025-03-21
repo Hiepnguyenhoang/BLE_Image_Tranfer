@@ -59,3 +59,6 @@ PIN = 1234                    PIN code for CLASSIC servers (optional)
 40 =     Authentication (but see le_pair() for
                          btferret's implementation)
 ```
+
+## UUID
+For other Adjustment, you can find auto UUID generator in [Truy cập trang web]([https://example.com](https://www.uuidgenerator.net/)) 
