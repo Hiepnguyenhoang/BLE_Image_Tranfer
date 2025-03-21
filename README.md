@@ -45,15 +45,6 @@ RANDOM = UNCHANGED            For LE random address that does not change
 CHANNEL = 4                   RFCOMM channel for CLASSIC servers (optional)
 PIN = 1234                    PIN code for CLASSIC servers (optional)
 ```
-Đối với LE device có thể 
-
-PRIMARY_SERVICE = 11223344-5566-7788-99AA-BBCCDDEEFF00 //Service
-LECHAR = Characteristic name of your choice            //Characteristic
-HANDLE = 000B  2-byte handle in hex
-PERMIT = 06    Permissions in hex                      //permissions
-SIZE = 1       Number of bytes in decimal. Range = 1 to 244 //Size truyền byte
-UUID = 2A00    2-byte UUID
-UUID = 11223344-5566-7788-99AA-BBCCDDEEFF00    16-byte UUID
 
 ## PERMIT OPTION
 ```sh
