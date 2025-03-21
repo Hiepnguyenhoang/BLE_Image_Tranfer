@@ -18,7 +18,10 @@ This code must be run with root permissions from the root account or via sudo as
 ```sh
 sudo ./btferret
 ```
-
+When run for the first time, it will print a message saying that it cannot find the local device in the devices_hiep.txt file, with instructions on how to set the address. Edit devices_hiep.txt with the address it specifies. For example:
+```sh
+DEVICE=MyGMQ  TYPE=Mesh  NODE=1  ADDRESS=E4:5F:01:D7:A7:F3
+```
 ## 3. device.txt
 
 DEVICE = Device name of your choice (don't use any of the key words
