@@ -24,6 +24,8 @@ DEVICE=MyGMQ  TYPE=Mesh  NODE=1  ADDRESS=E4:5F:01:D7:A7:F3
 ```
 ## 3. device.txt
 
+These are the parameters that can be set for each device.
+```sh
 DEVICE = Device name of your choice (don't use any of the key words
                   such as TYPE/NODE/ADDRESS.. or chaos will follow)
 
@@ -42,7 +44,7 @@ RANDOM = UNCHANGED            For LE random address that does not change
 
 CHANNEL = 4                   RFCOMM channel for CLASSIC servers (optional)
 PIN = 1234                    PIN code for CLASSIC servers (optional)
-
+```
 Đối với LE device có thể 
 
 PRIMARY_SERVICE = 11223344-5566-7788-99AA-BBCCDDEEFF00 //Service
