@@ -55,7 +55,8 @@ SIZE = 1       Number of bytes in decimal. Range = 1 to 244 //Size truyền byte
 UUID = 2A00    2-byte UUID
 UUID = 11223344-5566-7788-99AA-BBCCDDEEFF00    16-byte UUID
 
-//PERMIT 
+## PERMIT OPTION
+```sh
 02 = r   Read only
 04 = w   Write no acknowledge
 08 = wa  Write with acknowledge
@@ -66,3 +67,4 @@ UUID = 11223344-5566-7788-99AA-BBCCDDEEFF00    16-byte UUID
 20 = i   Indicate capable
 40 =     Authentication (but see le_pair() for
                          btferret's implementation)
+```
