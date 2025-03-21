@@ -1,6 +1,6 @@
 ## 1. Introduction
 
-This is a C code BLE interface has been developed for Raspberry Pi (but has also had some testing on Ubuntu, and should work on other Linux systems) //
+This is a C code BLE interface has been developed for Raspberry Pi (but has also had some testing on Ubuntu, and should work on other Linux systems) \\
 A Pi running this interface can connect simultaneously to multiple LE devices.
 Điều khiển Pi từ điện thoại: Blue dot server, mesh network, MIT App Inventor
 
