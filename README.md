@@ -9,7 +9,8 @@ A Pi running this interface can connect simultaneously to multiple LE devices.
 ## Complile
 
 ```sh
-gcc btferret.c btlib.c -o btferret ```
+gcc btferret.c btlib.c -o btferret
+```
 
 ## Run Code
 
