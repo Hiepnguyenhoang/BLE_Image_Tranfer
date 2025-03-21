@@ -6,20 +6,20 @@ A Pi running this interface can connect simultaneously to multiple LE devices.
 
 ## 2. Compile & Run code server
 
-## Complile
+### Complile
 
 ```sh
 gcc btferret.c btlib.c -o btferret
 ```
 
-## Run Code
+### Run Code
 
 This code must be run with root permissions from the root account or via sudo as follows:
 ```sh
 sudo ./btferret
 ```
 
-device.txt
+## 3. device.txt
 
 DEVICE = Device name of your choice (don't use any of the key words
                   such as TYPE/NODE/ADDRESS.. or chaos will follow)
