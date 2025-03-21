@@ -61,4 +61,5 @@ PIN = 1234                    PIN code for CLASSIC servers (optional)
 ```
 
 ## UUID
-For other Adjustment, you can find auto UUID generator in [Truy cập trang web]([https://example.com](https://www.uuidgenerator.net/)) 
+For other Adjustment, You can find an auto UUID generator in [Truy cập trang web](https://www.uuidgenerator.net/)
+
