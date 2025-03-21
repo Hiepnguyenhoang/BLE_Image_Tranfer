@@ -4,10 +4,18 @@ This is a C code BLE interface has been developed for Raspberry Pi (but has also
 
 A Pi running this interface can connect simultaneously to multiple LE devices.
 
-## 2. Compile
+## 2. Compile & Run code server
+
+# Complile
 
 ```sh
 gcc btferret.c btlib.c -o btferret
+
+# Run Code
+
+This code must be run with root permissions from the root account or via sudo as follows:
+```sh
+sudo ./btferret
 
 device.txt
 
