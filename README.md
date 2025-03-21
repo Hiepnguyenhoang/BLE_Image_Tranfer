@@ -17,6 +17,7 @@ gcc btferret.c btlib.c -o btferret
 This code must be run with root permissions from the root account or via sudo as follows:
 ```sh
 sudo ./btferret
+```
 
 device.txt
 
